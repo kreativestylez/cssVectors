@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+	<title></title>
+	<style>
+	.designcontainer {
+		width: 800px;
+		height: 700px;
+		margin: auto; 
+		background: #9bdfdb;
+	}
+div[shape="Rounded_Rectangle_1"] {
+	width: 427.334px;
+	height: 230px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border:10px solid rgb(85, 85, 85);
+	border-width: 8.333px;
+	border-color: rgb(85, 85, 85);
+	border-style: solid;
+	background-color: rgb(243, 243, 243);
+	position: relative;
+	top: 97px;
+	margin: auto;
+}
+div[shape="Rounded_Rectangle_1"]::before {
+	width: 444px;
+	height: 80px;
+	content: "";
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-color: rgb(176, 176, 176);
+	position: absolute;
+	top: 239px;
+	margin: auto -8px;
+}
+
+div[shape="Rounded_Rectangle_1"]::after {
+	width: 104px;
+	height: 62px;
+	content: "";
+	position: absolute;
+	top: 257px;
+	left: 146px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 68px solid rgb(109, 109, 109);
+	}
+
+div[shape="transparentshadow"] {
+	height: 332px;
+	opacity: 0.051;
+	position: absolute;
+	margin:auto;
+	right: 12px;
+	border-right: 424px solid transparent;
+	border-top: 308px solid rgb(109, 109, 109);
+}
+div[shape="circle"] {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color: rgb(109, 109, 109);
+	position: relative;
+	margin:270px auto;
+}
+div[shape="circle"]::before {
+	width: 206px;
+	height: 12px;
+	content: "";
+	background-color: rgb(109, 109, 109);
+	position: absolute;
+	margin:117px -95px;
+	border-radius: 6px;
+}
+
+	</style>
+	</head>
+	<body>
+	<div class="designcontainer">
+	<div shape="Rounded_Rectangle_1"><div shape="transparentshadow"></div><div shape="circle"></div></div>
+	</div>
+	</body>
+	</html>
